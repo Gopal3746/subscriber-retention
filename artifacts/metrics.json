@@ -1,0 +1,62 @@
+{
+  "rows": 7043,
+  "observed_churn_rate": 0.2653698707936959,
+  "holdout_metrics": {
+    "logistic_regression": {
+      "roc_auc": 0.8447441163553695,
+      "accuracy": 0.7395315826827538,
+      "precision": 0.5059021922428331,
+      "recall": 0.8021390374331551,
+      "f1": 0.6204756980351603
+    },
+    "xgboost": {
+      "roc_auc": 0.8481606344777701,
+      "accuracy": 0.8076650106458482,
+      "precision": 0.6734006734006734,
+      "recall": 0.5347593582887701,
+      "f1": 0.5961251862891207
+    }
+  },
+  "strongest_shap_features": [
+    {
+      "source_feature": "Contract",
+      "mean_abs_shap": 0.8637202978134155
+    },
+    {
+      "source_feature": "tenure",
+      "mean_abs_shap": 0.4162196218967438
+    },
+    {
+      "source_feature": "MonthlyCharges",
+      "mean_abs_shap": 0.24308067560195923
+    },
+    {
+      "source_feature": "OnlineSecurity",
+      "mean_abs_shap": 0.22755025327205658
+    },
+    {
+      "source_feature": "InternetService",
+      "mean_abs_shap": 0.21999596059322357
+    },
+    {
+      "source_feature": "TechSupport",
+      "mean_abs_shap": 0.17657174170017242
+    },
+    {
+      "source_feature": "PaymentMethod",
+      "mean_abs_shap": 0.16008183360099792
+    },
+    {
+      "source_feature": "PaperlessBilling",
+      "mean_abs_shap": 0.10941752046346664
+    }
+  ],
+  "month_to_month_churn_rate": 0.4270967741935484,
+  "two_year_churn_rate": 0.02831858407079646,
+  "electronic_check_churn_rate": 0.4528541226215645,
+  "new_customer_0_6_churn_rate": 0.5293720459149224,
+  "mature_49_72_churn_rate": 0.09513175524787852,
+  "healthy_ltv_72m": 3292.207855125982,
+  "at_risk_ltv_72m": 1363.865502172326,
+  "at_risk_ltv_discount_vs_healthy": 0.5857292242199164
+}

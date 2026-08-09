@@ -1,0 +1,57 @@
+transformed_feature,mean_abs_shap,source_feature
+num__SeniorCitizen,0.04346978,SeniorCitizen
+num__tenure,0.41621962,tenure
+num__MonthlyCharges,0.24308068,MonthlyCharges
+num__TotalCharges,0.10501753,TotalCharges
+num__service_count,0.005522804,service_count
+num__automatic_payment,0.0017478401,automatic_payment
+cat__gender_Female,0.008471925,gender
+cat__gender_Male,0.0013644932,gender
+cat__Partner_No,0.0014759849,Partner
+cat__Partner_Yes,0.0,Partner
+cat__Dependents_No,0.022764863,Dependents
+cat__Dependents_Yes,0.0021412903,Dependents
+cat__PhoneService_No,0.013453472,PhoneService
+cat__PhoneService_Yes,0.0033411048,PhoneService
+cat__MultipleLines_No,0.09194087,MultipleLines
+cat__MultipleLines_No phone service,0.0,MultipleLines
+cat__MultipleLines_Yes,0.0013751644,MultipleLines
+cat__InternetService_DSL,0.0054205246,InternetService
+cat__InternetService_Fiber optic,0.21392736,InternetService
+cat__InternetService_No,0.0006480804,InternetService
+cat__OnlineSecurity_No,0.22317092,OnlineSecurity
+cat__OnlineSecurity_No internet service,0.0028844685,OnlineSecurity
+cat__OnlineSecurity_Yes,0.0014948592,OnlineSecurity
+cat__OnlineBackup_No,0.059170958,OnlineBackup
+cat__OnlineBackup_No internet service,0.0,OnlineBackup
+cat__OnlineBackup_Yes,0.0029729723,OnlineBackup
+cat__DeviceProtection_No,0.003148674,DeviceProtection
+cat__DeviceProtection_No internet service,0.0,DeviceProtection
+cat__DeviceProtection_Yes,0.0016715534,DeviceProtection
+cat__TechSupport_No,0.17547807,TechSupport
+cat__TechSupport_No internet service,0.0,TechSupport
+cat__TechSupport_Yes,0.0010936687,TechSupport
+cat__StreamingTV_No,0.004251175,StreamingTV
+cat__StreamingTV_No internet service,0.0,StreamingTV
+cat__StreamingTV_Yes,0.04871902,StreamingTV
+cat__StreamingMovies_No,0.016514141,StreamingMovies
+cat__StreamingMovies_No internet service,0.0,StreamingMovies
+cat__StreamingMovies_Yes,0.058852103,StreamingMovies
+cat__Contract_Month-to-month,0.6799112,Contract
+cat__Contract_One year,0.061052028,Contract
+cat__Contract_Two year,0.12275704,Contract
+cat__PaperlessBilling_No,0.09217771,PaperlessBilling
+cat__PaperlessBilling_Yes,0.01723981,PaperlessBilling
+cat__PaymentMethod_Bank transfer (automatic),0.005206928,PaymentMethod
+cat__PaymentMethod_Credit card (automatic),0.0015491017,PaymentMethod
+cat__PaymentMethod_Electronic check,0.14508761,PaymentMethod
+cat__PaymentMethod_Mailed check,0.008238181,PaymentMethod
+cat__tenure_bucket_0-6,0.010724598,tenure_bucket
+cat__tenure_bucket_13-24,0.00040337926,tenure_bucket
+cat__tenure_bucket_25-48,0.0014872471,tenure_bucket
+cat__tenure_bucket_49-72,0.004103602,tenure_bucket
+cat__tenure_bucket_7-12,0.00074390566,tenure_bucket
+cat__monthly_charge_band_35-70,0.0,monthly_charge_band
+cat__monthly_charge_band_70-90,0.001163641,monthly_charge_band
+cat__monthly_charge_band_<=35,0.0,monthly_charge_band
+cat__monthly_charge_band_>90,0.0018257416,monthly_charge_band
